@@ -2,13 +2,13 @@
   <head>
     <link rel="icon" type="image/png" href="/static/helmet.png">
   </head>
-  <div class="relative flex items-center justify-center min-h-screen bg-cover bg-center" style="background-image: url('/welcome.jpeg');">
-    <div class="text-center p-8 text-white max-w-3xl mx-auto bg-black bg-opacity-50 rounded-lg">
-      <h1 class="text-7xl mb-8 drop-shadow-lg">Mitologia Nórdica</h1>
+  <div class="relative flex items-center justify-center min-h-screen bg-cover bg-center" style="background-image: url('/welcome.jpg');">
+    <div class="text-center p-8 text-white max-w-3xl mx-auto bg-black bg-opacity-70 rounded-lg">
+      <h1 class="text-7xl mb-8 drop-shadow-lg">Mitologia Egípcia</h1>
       <p class="text-2xl drop-shadow-lg leading-relaxed">
-        A mitologia nórdica, com suas ricas narrativas e personagens como Odin, Thor e Loki, possui uma importância profunda na compreensão das tradições e valores das antigas sociedades escandinavas. O estudo desses mitos oferece insights valiosos sobre como esses povos viam o mundo, suas crenças sobre a natureza, os deuses, a vida e a morte.
+        A mitologia egípcia é um conjunto fascinante de crenças e histórias desenvolvidas ao longo de milênios no antigo Egito. Ela envolve um complexo panteão de deuses e deusas, cada um responsável por diferentes aspectos da vida e do universo, como Ra (o deus do sol), Osíris (o deus do submundo e da ressurreição), Ísis (a deusa da fertilidade e da maternidade), e Anúbis (o deus da mumificação e dos mortos).
         <br/><br/>
-        Na sociedade moderna, a influência da mitologia nórdica pode ser vista em vários aspectos do nosso dia a dia. Muitos nomes de dias da semana, por exemplo, são derivados dos deuses nórdicos, como Thursday (quinta-feira) de Thor e Wednesday (quarta-feira) de Odin. Além disso, a mitologia nórdica inspira arte, música e até mesmo a cultura popular, contribuindo para uma identidade cultural rica e diversificada.
+        Os mitos egípcios eram frequentemente representados em textos sagrados, templos, túmulos e monumentos. Entre os textos mais famosos estão o "Livro dos Mortos", que detalha o julgamento das almas no além, e a "História de Ísis e Osíris", que conta sobre a morte e ressurreição de Osíris, simbolizando a promessa de vida após a morte.
       </p>
     </div>
   </div>

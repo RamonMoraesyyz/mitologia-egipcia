@@ -1,6 +1,6 @@
 <template>
   
-      <NordicHeader></NordicHeader>
+      <EgyptHeader></EgyptHeader>
       <!-- Renderiza o conteúdo da página atual -->
      
 
