@@ -3,9 +3,9 @@
     <link rel="icon" type="image/png" href="/static/helmet.png">
   </head>
   <div class="relative flex items-center justify-center min-h-screen bg-cover bg-center" style="background-image: url('/welcome.jpg');">
-    <div class="text-center p-8 text-white max-w-3xl mx-auto bg-black bg-opacity-70 rounded-lg">
-      <h1 class="text-7xl mb-8 drop-shadow-lg">Mitologia Egípcia</h1>
-      <p class="text-2xl drop-shadow-lg leading-relaxed">
+    <div class="text-center p-4 md:p-8 text-white max-w-3xl mx-auto bg-black bg-opacity-70 rounded-lg">
+      <h1 class="text-4xl md:text-7xl mb-4 md:mb-8 drop-shadow-lg">Mitologia Egípcia</h1>
+      <p class="text-base md:text-2xl drop-shadow-lg leading-relaxed">
         A mitologia egípcia é um conjunto fascinante de crenças e histórias desenvolvidas ao longo de milênios no antigo Egito. Ela envolve um complexo panteão de deuses e deusas, cada um responsável por diferentes aspectos da vida e do universo, como Ra (o deus do sol), Osíris (o deus do submundo e da ressurreição), Ísis (a deusa da fertilidade e da maternidade), e Anúbis (o deus da mumificação e dos mortos).
         <br/><br/>
         Os mitos egípcios eram frequentemente representados em textos sagrados, templos, túmulos e monumentos. Entre os textos mais famosos estão o "Livro dos Mortos", que detalha o julgamento das almas no além, e a "História de Ísis e Osíris", que conta sobre a morte e ressurreição de Osíris, simbolizando a promessa de vida após a morte.
@@ -37,5 +37,17 @@
 
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .text-7xl {
+    font-size: 2.25rem; /* 36px */
+  }
+  .mb-8 {
+    margin-bottom: 1rem; /* 16px */
+  }
+  .text-2xl {
+    font-size: 1rem; /* 16px */
+  }
 }
 </style>

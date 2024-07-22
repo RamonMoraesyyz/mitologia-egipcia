@@ -33,14 +33,19 @@
         </div>
         <div class="dropdown" @mouseenter="dropdownOpenGods = true" @mouseleave="dropdownOpenGods = false">
           <button class="dropdown-toggle" type="button" aria-haspopup="true" :aria-expanded="dropdownOpenGods">
-            <b>Faraós</b>
+            <b>Faraós 1</b>
           </button>
           <div class="dropdown-menu" v-show="dropdownOpenGods" aria-labelledby="dropdownMenuGods">
             <router-link class="dropdown-item" to="/faraos/narmer">Narmer</router-link>
             <router-link class="dropdown-item" to="/faraos/djoser">Djoser</router-link>
             <router-link class="dropdown-item" to="/faraos/sneferu">Sneferu</router-link>
             <router-link class="dropdown-item" to="/faraos/khufu">Khufu</router-link>
-        
+            <router-link class="dropdown-item" to="/faraos/khafre">Khafre</router-link>
+            <router-link class="dropdown-item" to="/faraos/menkaure">Menkaure</router-link>
+            <router-link class="dropdown-item" to="/faraos/metunhotep2">Metunhotep 2</router-link>
+            <router-link class="dropdown-item" to="/faraos/amenemhat">Amenemhat</router-link>
+            <router-link class="dropdown-item" to="/faraos/sesostris">Sesostris</router-link>
+            <router-link class="dropdown-item" to="/faraos/ahmose">Ahmose</router-link>
             
           </div>
         </div>
