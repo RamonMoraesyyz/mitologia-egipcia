@@ -39,9 +39,9 @@
             <router-link class="dropdown-item" to="/faraos/narmer">Narmer</router-link>
             <router-link class="dropdown-item" to="/faraos/djoser">Djoser</router-link>
             <router-link class="dropdown-item" to="/faraos/sneferu">Sneferu</router-link>
-            <router-link class="dropdown-item" to="/faraos/khufu">khufu</router-link>
-            <router-link class="dropdown-item" to="/deuses-vanir/nerthus">Nerthus</router-link>
-            <router-link class="dropdown-item" to="/deuses-vanir/gullveig">Gullveig</router-link>
+            <router-link class="dropdown-item" to="/faraos/khufu">Khufu</router-link>
+        
+            
           </div>
         </div>
         <b><router-link to="/herois"></router-link></b>
@@ -50,20 +50,7 @@
             <b>Gigantes</b>
           </button>
           <div class="dropdown-menu" v-show="dropdownOpenHeroes" aria-labelledby="dropdownMenuHeroes">
-            <router-link class="dropdown-item" to="/gigantes/ymir">Ymir</router-link>
-            <router-link class="dropdown-item" to="/gigantes/aegir">Aegir</router-link>
-            <router-link class="dropdown-item" to="/gigantes/angrboda">Angrboda</router-link>
-            <router-link class="dropdown-item" to="/gigantes/baugi">Baugi</router-link>
-            <router-link class="dropdown-item" to="/gigantes/belgemir">Belgemir</router-link>
-            <router-link class="dropdown-item" to="/gigantes/bestla">Bestla</router-link>
-            <router-link class="dropdown-item" to="/gigantes/farbauti">Farbauti</router-link>
-            <router-link class="dropdown-item" to="/gigantes/gerd">Gerd</router-link>
-            <router-link class="dropdown-item" to="/gigantes/byleistr">Byleistr</router-link>
-            <router-link class="dropdown-item" to="/gigantes/gunnlod">Gunnlod</router-link>
-            <router-link class="dropdown-item" to="/gigantes/hymir">Hymir</router-link>
-            <router-link class="dropdown-item" to="/gigantes/skadi">Skadi</router-link>
-            <router-link class="dropdown-item" to="/gigantes/utgard-loki">Utgard-loki</router-link>
-            <router-link class="dropdown-item" to="/gigantes/surtur">Surtur</router-link>
+            
 
             
             <!-- Adicione outros links dos Heróis aqui -->
@@ -75,19 +62,7 @@
             <b>Heróis</b>
           </button>
           <div class="dropdown-menu" v-show="dropdownOpenHeros" aria-labelledby="dropdownMenuTitans">
-            <router-link class="dropdown-item" to="/herois/sigurd">Sigurd</router-link>
-            <router-link class="dropdown-item" to="/herois/brynhildr">Brynhildr</router-link>
-            <router-link class="dropdown-item" to="/herois/beoulf">Beoulf</router-link>
-            <router-link class="dropdown-item" to="/herois/gunnar">Gunnar</router-link>
-            <router-link class="dropdown-item" to="/herois/gudrun">Gudrun</router-link>
-            <router-link class="dropdown-item" to="/herois/egil">Egil</router-link>
-            <router-link class="dropdown-item" to="/herois/helgi">Helgi</router-link>
-            <router-link class="dropdown-item" to="/herois/hogni">Hogni</router-link> 
-            <router-link class="dropdown-item" to="/herois/hrolf">Hrolf</router-link>
-            <router-link class="dropdown-item" to="/herois/ragnar">Ragnar</router-link>
-            <router-link class="dropdown-item" to="/herois/bjorn">Bjorn</router-link>
-            <router-link class="dropdown-item" to="/herois/elfos">Elfos</router-link>
-            <router-link class="dropdown-item" to="/herois/valkirias">Valkirias</router-link>
+           
 
 
             <!-- Adicione outros links dos Titãs aqui -->
@@ -105,17 +80,7 @@
             <b>Anões</b>
           </button>
           <div class="dropdown-menu" v-show="dropdownOpenMonsters" aria-labelledby="dropdownMenuMonsters">
-            <router-link class="dropdown-item" to="/anoes/brokk">Brokk</router-link>
-            <router-link class="dropdown-item" to="/anoes/sindri">Sindri</router-link>
-            <router-link class="dropdown-item" to="/anoes/dvalin">Dvalin</router-link>
-            <router-link class="dropdown-item" to="/anoes/andvari">Andvari</router-link>
-            <router-link class="dropdown-item" to="/anoes/alviss">Alviss</router-link>
-            <router-link class="dropdown-item" to="/anoes/alfrigg">Alfrigg</router-link>
-            <router-link class="dropdown-item" to="/anoes/durin">Durin</router-link>
-            <router-link class="dropdown-item" to="/anoes/galar">Galar</router-link>
-            <router-link class="dropdown-item" to="/anoes/grer">Grer</router-link>
-            <router-link class="dropdown-item" to="/anoes/motsognir">Motsognir</router-link>
-            <router-link class="dropdown-item" to="/anoes/berling">Berling</router-link>
+            
             <!-- Adicione outros links dos Monstros aqui -->
           </div>
         </div>
@@ -127,19 +92,7 @@
             <b>Criaturas</b>
           </button>
           <div class="dropdown-menu" v-show="dropdownOpenLocals" aria-labelledby="dropdownMenuLocals">
-            <router-link class="dropdown-item" to="/monstros/jormungandr">Jörmungandr</router-link>
-            <router-link class="dropdown-item" to="/monstros/fafnir">Fafnir</router-link>
-            <router-link class="dropdown-item" to="/monstros/nidhogrr">Níðhöggr</router-link>
-            <router-link class="dropdown-item" to="/monstros/fenrir">Fenrir</router-link>
-            <router-link class="dropdown-item" to="/monstros/hati">Hati </router-link>
-            <router-link class="dropdown-item" to="/monstros/skoll">Skoll </router-link>
-            <router-link class="dropdown-item" to="/monstros/hel">Hel </router-link>
-            <router-link class="dropdown-item" to="/monstros/garmr">Garmr </router-link>
-            <router-link class="dropdown-item" to="/monstros/hraesvelgr"> Hraesvelgr </router-link>
-            <router-link class="dropdown-item" to="/monstros/draugr"> Draugr </router-link>
-            <router-link class="dropdown-item" to="/monstros/trolls"> Trolls </router-link>
-            <router-link class="dropdown-item" to="/monstros/mare"> Mare </router-link>
-            <router-link class="dropdown-item" to="/monstros/sleipnir"> Sleipnir </router-link>
+            
             
 
           
@@ -154,19 +107,7 @@
             <b>Locais</b>
           </button>
           <div class="dropdown-menu" v-show="dropdownOpenAdventures" aria-labelledby="dropdownMenuAdventures">
-            <router-link class="dropdown-item" to="/locais/asgard"> Asgard </router-link>
-            <router-link class="dropdown-item" to="/locais/midgard"> Midgard </router-link>
-            <router-link class="dropdown-item" to="/locais/vanaheim"> Vanaheim </router-link>
-            <router-link class="dropdown-item" to="/locais/alfheim"> Alfheim </router-link>
-            <router-link class="dropdown-item" to="/locais/jotunheim"> Jotunheim </router-link>
-            <router-link class="dropdown-item" to="/locais/muspelheim"> Muspelheim </router-link>
-            <router-link class="dropdown-item" to="/locais/helheim"> Helheim </router-link>
-            <router-link class="dropdown-item" to="/locais/bifrost"> Bifrost </router-link>
-            <router-link class="dropdown-item" to="/locais/yggdrasil"> Yggdrasil </router-link>
-            <router-link class="dropdown-item" to="/locais/folkvangr"> Folkvangr </router-link>
-            <router-link class="dropdown-item" to="/locais/nidavellir"> Nidavellir </router-link>
-            <router-link class="dropdown-item" to="/locais/nilfheim"> Nilfheim </router-link>
-            <router-link class="dropdown-item" to="/locais/valhalla"> Valhalla </router-link>
+            
 
             <!-- Adicione outros links das Aventuras aqui -->
           </div>
