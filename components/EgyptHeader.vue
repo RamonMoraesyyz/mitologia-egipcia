@@ -52,10 +52,15 @@
         <b><router-link to="/herois"></router-link></b>
         <div class="dropdown" @mouseenter="dropdownOpenHeroes = true" @mouseleave="dropdownOpenHeroes = false">
           <button class="dropdown-toggle" type="button" aria-haspopup="true" :aria-expanded="dropdownOpenHeroes">
-            <b>Gigantes</b>
+            <b>Faraós 2</b>
           </button>
           <div class="dropdown-menu" v-show="dropdownOpenHeroes" aria-labelledby="dropdownMenuHeroes">
-            
+            <router-link class="dropdown-item" to="/faraos2/hatshepsut">Hatshepsut</router-link>
+            <router-link class="dropdown-item" to="/faraos2/akhenaton">Akhenaton</router-link>
+            <router-link class="dropdown-item" to="/faraos2/tutmosis">Tutmosis</router-link>
+            <router-link class="dropdown-item" to="/faraos2/seti">Seti 1</router-link>
+            <router-link class="dropdown-item" to="/faraos2/ramsess">Ramsés 2</router-link>
+            <router-link class="dropdown-item" to="/faraos2/tutankhamon">Tutankhamon</router-link>
 
             
             <!-- Adicione outros links dos Heróis aqui -->
