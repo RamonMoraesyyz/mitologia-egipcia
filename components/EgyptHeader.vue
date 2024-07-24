@@ -58,9 +58,12 @@
             <router-link class="dropdown-item" to="/faraos2/hatshepsut">Hatshepsut</router-link>
             <router-link class="dropdown-item" to="/faraos2/akhenaton">Akhenaton</router-link>
             <router-link class="dropdown-item" to="/faraos2/tutmosis">Tutmosis</router-link>
-            <router-link class="dropdown-item" to="/faraos2/seti">Seti 1</router-link>
-            <router-link class="dropdown-item" to="/faraos2/ramsess">Ramsés 2</router-link>
+            <router-link class="dropdown-item" to="/faraos2/seti">Seti I</router-link>
+            <router-link class="dropdown-item" to="/faraos2/ramsess">Ramsés I</router-link>
             <router-link class="dropdown-item" to="/faraos2/tutankhamon">Tutankhamon</router-link>
+            <router-link class="dropdown-item" to="/faraos2/nectanebo">Nectanebo</router-link>
+            <router-link class="dropdown-item" to="/faraos2/psammetico">Psammetico</router-link>
+            <router-link class="dropdown-item" to="/faraos2/ramses3">Ramsés III</router-link>
 
             
             <!-- Adicione outros links dos Heróis aqui -->
