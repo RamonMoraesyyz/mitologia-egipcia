@@ -72,11 +72,15 @@
 
         <div class="dropdown" @mouseenter="dropdownOpenHeros = true" @mouseleave="dropdownOpenHeros = false">
           <button class="dropdown-toggle" type="button" aria-haspopup="true" :aria-expanded="dropdownOpenHeros">
-            <b>Heróis</b>
+            <b>Criaturas</b>
           </button>
           <div class="dropdown-menu" v-show="dropdownOpenHeros" aria-labelledby="dropdownMenuTitans">
-           
-
+            <router-link class="dropdown-item" to="/criaturas/esfinge">Esfinge</router-link>
+            <router-link class="dropdown-item" to="/criaturas/bennu">Bennu</router-link>
+            <router-link class="dropdown-item" to="/criaturas/ammit">Ammit</router-link>
+            <router-link class="dropdown-item" to="/criaturas/apep">Apep</router-link>
+            <router-link class="dropdown-item" to="/criaturas/ba">Ba</router-link>
+            <router-link class="dropdown-item" to="/criaturas/grifo">Grifo</router-link>
 
             <!-- Adicione outros links dos Titãs aqui -->
           </div>
