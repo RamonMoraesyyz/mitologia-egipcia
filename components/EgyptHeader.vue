@@ -36,6 +36,7 @@
             <b>Faraós 1</b>
           </button>
           <div class="dropdown-menu" v-show="dropdownOpenGods" aria-labelledby="dropdownMenuGods">
+            <router-link class="dropdown-item" to="/faraos/cleopatra">Cleópatra</router-link>
             <router-link class="dropdown-item" to="/faraos/narmer">Narmer</router-link>
             <router-link class="dropdown-item" to="/faraos/djoser">Djoser</router-link>
             <router-link class="dropdown-item" to="/faraos/sneferu">Sneferu</router-link>
@@ -72,7 +73,7 @@
 
         <div class="dropdown" @mouseenter="dropdownOpenHeros = true" @mouseleave="dropdownOpenHeros = false">
           <button class="dropdown-toggle" type="button" aria-haspopup="true" :aria-expanded="dropdownOpenHeros">
-            <b>Criaturas</b>
+            <b>Criaturas míticas</b>
           </button>
           <div class="dropdown-menu" v-show="dropdownOpenHeros" aria-labelledby="dropdownMenuTitans">
             <router-link class="dropdown-item" to="/criaturas/esfinge">Esfinge</router-link>
@@ -81,6 +82,11 @@
             <router-link class="dropdown-item" to="/criaturas/apep">Apep</router-link>
             <router-link class="dropdown-item" to="/criaturas/ba">Ba</router-link>
             <router-link class="dropdown-item" to="/criaturas/grifo">Grifo</router-link>
+            <router-link class="dropdown-item" to="/criaturas/tjesu-heru">Tjesu Heru</router-link>
+            <router-link class="dropdown-item" to="/criaturas/serpopardo">Serporpardo</router-link>
+            <router-link class="dropdown-item" to="/criaturas/ouroboros">Ouroboros</router-link>
+            <router-link class="dropdown-item" to="/criaturas/khepri">Khepri</router-link>
+            <router-link class="dropdown-item" to="/criaturas/mehetweret">Mehet Weret</router-link>
 
             <!-- Adicione outros links dos Titãs aqui -->
           </div>
@@ -94,7 +100,7 @@
         <b><router-link to="/monstros"></router-link></b>
         <div class="dropdown" @mouseenter="dropdownOpenMonsters = true" @mouseleave="dropdownOpenMonsters = false">
           <button class="dropdown-toggle" type="button" aria-haspopup="true" :aria-expanded="dropdownOpenMonsters">
-            <b>Anões</b>
+            <b>Locais sagrados</b>
           </button>
           <div class="dropdown-menu" v-show="dropdownOpenMonsters" aria-labelledby="dropdownMenuMonsters">
             
@@ -103,32 +109,7 @@
         </div>
 
 
-        <b><router-link to="/locais"></router-link></b>
-        <div class="dropdown" @mouseenter="dropdownOpenLocals = true" @mouseleave="dropdownOpenLocals = false">
-          <button class="dropdown-toggle" type="button" aria-haspopup="true" :aria-expanded="dropdownOpenLocals">
-            <b>Criaturas</b>
-          </button>
-          <div class="dropdown-menu" v-show="dropdownOpenLocals" aria-labelledby="dropdownMenuLocals">
-            
-            
-
-          
-          </div>
-        </div>
-
-
-
-        <b><router-link to="/aventuras"></router-link></b>
-        <div class="dropdown" @mouseenter="dropdownOpenAdventures = true" @mouseleave="dropdownOpenAdventures = false">
-          <button class="dropdown-toggle" type="button" aria-haspopup="true" :aria-expanded="dropdownOpenAdventures">
-            <b>Locais</b>
-          </button>
-          <div class="dropdown-menu" v-show="dropdownOpenAdventures" aria-labelledby="dropdownMenuAdventures">
-            
-
-            <!-- Adicione outros links das Aventuras aqui -->
-          </div>
-        </div>
+        
       </nav>
     </header>
     <!-- Renderiza o conteúdo da página atual -->
