@@ -103,7 +103,16 @@
             <b>Locais sagrados</b>
           </button>
           <div class="dropdown-menu" v-show="dropdownOpenMonsters" aria-labelledby="dropdownMenuMonsters">
-            
+            <router-link class="dropdown-item" to="/locaissagrados/heliopolis">Heliópolis</router-link>
+            <router-link class="dropdown-item" to="/locaissagrados/dendera">Dendera</router-link>
+            <router-link class="dropdown-item" to="/locaissagrados/efdu">Efdu</router-link>
+            <router-link class="dropdown-item" to="/locaissagrados/gize">Gizé</router-link>
+            <router-link class="dropdown-item" to="/locaissagrados/abidos">Abidos</router-link>
+            <router-link class="dropdown-item" to="/locaissagrados/komombo">Kom Ombo</router-link>
+            <router-link class="dropdown-item" to="/locaissagrados/menfis">Menfis</router-link>
+            <router-link class="dropdown-item" to="/locaissagrados/nilo">Nilo</router-link>
+            <router-link class="dropdown-item" to="/locaissagrados/saqqara">Saqqara</router-link>
+            <router-link class="dropdown-item" to="/locaissagrados/tebas">Tebas</router-link>
             <!-- Adicione outros links dos Monstros aqui -->
           </div>
         </div>
